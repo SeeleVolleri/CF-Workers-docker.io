@@ -13,6 +13,14 @@
 > 根据 [Cloudflare 协议](https://www.cloudflare.com/zh-cn/terms/) 中，2.2.1 第 (j) use the Services to provide a virtual private network or other similar proxy services.
 >
 > 使用本服务可能存在被 Cloudflare 封号的潜在风险，请自行斟酌使用风险。
+>
+> 如果你选择了“根据主机名选择对应的上游地址”方式部署，你可能会:
+> 收到来自 Netcraft 的警告邮件
+> 被 Google Safe Browsing 标记为钓鱼网站
+> 被 Cloudflare 标记为钓鱼网站
+> 收到律师函
+> 无法访问。
+> 你必须时刻检查 Cloudflare 域名仪表盘，设置邮件转发，以防错过任何内容，造成重大损失。
 
 ## 🚀 部署方式
 
